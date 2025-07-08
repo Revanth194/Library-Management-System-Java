@@ -75,6 +75,11 @@ A desktop-based Library Management System built with **Java Swing** and **MySQL*
 - Connecting frontend and backend using **JDBC**
 
 ---
+## 📄 Full Project Documentation
+
+For setup instructions, prerequisites, and features like barcode generation,  
+visit the 📘 [Full Wiki Documentation](https://github.com/Revanth194/Library-Management-System-Java/wiki/Documentation)
+
 
 ## 🙌 Maintained By
 
