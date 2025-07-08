@@ -1,93 +1,84 @@
+# 📚 Library Management System (Java + MySQL)
 
-# Library Management System - Java - Eclipse
+A desktop-based Library Management System built with **Java Swing** and **MySQL**, featuring role-based access for **Admin**, **Faculty**, and **Student** users. This project offers a full GUI, login panels, book management, and issuing/return tracking functionality.
 
-#### This project is built using Java programming language and utilizes object-oriented programming concepts, Java Swings, GUI etc. to create an easy-to-use, efficient, and reliable library management system.
-<br>
+---
 
-## Prerequisites:
+## 👨‍💼 System Users
 
-#### Change the route as necessary at lines 79, 159, 171, 389 and 441 of the "AddNewBook" java code.
-#### same as goes with file "EditBook" at lines 137, 231 and 329.
+- **Admin**
+- **Faculty**
+- **Student**
 
-#### There is a default welcome message displayed on the admin, faculty, and student pages. You may edit that message from the admin or faculty pages by accessing the Add Notice.
-<br>
+---
 
-## Users of the System
+## ✨ Features by Role
 
-#### - Admin
-#### - Faculty
-#### - Student
-<br>
+### 🔹 Admin
+- Add and remove users (faculty & students)
+- View all library members
+- Add, edit, and view notices
+- View all books
+- View list of issued/due books
 
-## Screenshots
-<br>
+### 🔹 Faculty
+- Add, update, delete, and search books
+- Issue and return books
+- View notices and members
+- Add or edit personal details or delete their account
+- View issued/due books
 
-![Login Page](https://i.imgur.com/LAblOmW.png)
-<br><br><br>
+### 🔹 Student
+- View all books
+- Issue and return books
+- View issued book history
+- View notices
+- Edit profile or delete account
 
-![Faculty Page](https://i.imgur.com/Boy5l0R.png)
-<br><br><br>
+---
 
-![Add Notice Page](https://i.imgur.com/3eHtdY5.png)
-<br><br><br>
+## 🖼️ Screenshots
 
-## Provided Functionalities
 
-### 1. Admin
+| ![Login](https://i.imgur.com/LAblOmW.png) | ![Faculty](https://i.imgur.com/Boy5l0R.png) | ![Notice](https://i.imgur.com/3eHtdY5.png) |
 
-#### Can add Liberians, i.e., may provide access to admin and faculty page.
+---
 
-#### Can remove users such as faculty and student.
+## 🧰 Technologies Used
 
-#### Can see all library members.
+- **Java (Swing GUI)**
+- **MySQL** (Database)
+- **JDBC** (Database connectivity)
+- **Eclipse IDE**
 
-#### View all books.
+---
 
-#### Can Add or Edit Notice.
+## ⚙️ Setup Notes
 
-#### Can view a static list of the library's issued or due books.
-<br>
+> If you wish to run this project locally:
+- Open it in **Eclipse IDE**
+- Add the MySQL JDBC driver to the project
+- Modify hardcoded file paths in:
+  - `AddNewBook.java` (lines: 79, 159, 171, 389, 441)
+  - `EditBook.java` (lines: 137, 231, 329)
+- Set up MySQL DB with required tables
+- Start with `Login.java` or main GUI file
 
-### 2. Faculty
+---
 
-#### Can add/search/update/delete/view books.
+## 🧠 What I Learned
 
-#### Can view a static list of the library's issued or due books.
+- Building GUI apps using **Java Swing**
+- Implementing **role-based access**
+- Performing **CRUD operations** on MySQL databases
+- Managing user sessions and form validations
+- Connecting frontend and backend using **JDBC**
 
-#### Can see all library members.
+---
 
-#### Can issue books.
+## 🙌 Maintained By
 
-#### Return Books.
+**Revanth**  
+📎 GitHub: [https://github.com/Revanth194](https://github.com/Revanth194)
 
-#### Can Add or Edit Notice.
-
-#### Can change personal credential or can delete personal account also.
-<br>
-
-### 3. Student
-
-#### Can view all books.
-
-#### View Notice.
-
-#### Issue Books.
-
-#### Return Books.
-
-#### Can view all issued books.
-
-#### Can change personal credential or can delete personal account also.
-<br>
-
-## Tools Used
-
-#### Eclipse IDE
-
-#### MySQL for the Database
-<br>
-
-## Documentation
-
-### [Please visit my project's wiki to see the documentation.](https://github.com/shantam-verma/Library-Management-System-Java/wiki)
-
+---
